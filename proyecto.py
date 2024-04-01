@@ -1,3 +1,4 @@
+#usando el patron Observer
 class IRecordatorio: #interfaz
     def update(self): 
         pass
