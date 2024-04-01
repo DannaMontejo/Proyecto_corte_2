@@ -20,9 +20,6 @@ class GestorTareas:
     def agregar_tarea(self,id,titulo,descripcion,fecha=None):
         tarea=Tareas(id,titulo,descripcion,fecha)
         self._tareas.append(tarea)
-    
-    # def estado_tarea(self,estado):
-    #     self.estado=estado
 
     def completadas(self):
         num_tarea=int(input('Digite el número de tarea que acaba de completar: '))
